@@ -1,0 +1,107 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+     background-color: rgb(146, 224, 175);
+    padding: 5px;
+    width: 100%;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topnav a:hover{
+    color: aquamarine;
+}
+.leftheader
+{
+    padding-left: 50px;
+}
+.leftheader p{
+    color: rgb(128, 255, 49);
+    font-weight: 300;
+}
+.topnav{ padding-right: 50px;
+
+}
+.topnav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: black;
+    padding-left: 10px;
+}
+.poster
+{   min-height: 100vh;
+    width: 100%;
+    padding-left:50px; 
+    background-image: url(c.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .intro{
+    padding-left: 600px;
+    padding-right: 20px;
+ }
+.poster h2
+{
+    padding-top: 80px;
+    font-weight: 4em;
+    text-align: center;
+    color: rgb(66, 165, 66);
+     }
+
+.poster p{
+    color: rgb(36, 227, 147);
+     text-align: center;
+     
+}
+.quotes{
+    background-image: url(hd.jpg);
+    background-size: cover;
+ }
+ .qo{
+    padding-top: 50px;
+    padding-bottom: 200px;
+ }
+.quotes p{
+    padding-left: 600px;
+    text-align: center;
+      
+}
+.quotes i{
+    color: aqua;
+     font-size: small;
+     padding-left: 900px;
+
+
+}
+ 
+.kinds{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+ .allcard{
+    padding: 10px 150px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+.card{
+    border: 2px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+}
